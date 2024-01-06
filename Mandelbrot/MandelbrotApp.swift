@@ -11,7 +11,10 @@ import SwiftUI
 struct MandelbrotApp: App {
     var body: some Scene {
         WindowGroup {
-            MandelbrotView()
+            /* Implemented Mandelbrot using UIKit gestures which renders image with smooth gesture handling */
+            MandelbrotUIKit()
+            /* Implemented Mandelbrot using SwiftUI gestures which renders high definition image but relatively slow gesture handling */
+//            MandelbrotSwiftUI()
         }
     }
 }
